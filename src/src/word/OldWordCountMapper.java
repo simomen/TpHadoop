@@ -11,7 +11,7 @@ import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Counter;
 import org.apache.hadoop.mapreduce.Mapper;
 
-public class WordCountMapper extends
+public class OldWordCountMapper extends
 		Mapper<LongWritable, Text, Text, IntWritable> {
 
 	public Map<String, Integer> mapTampon;
